@@ -1,0 +1,5 @@
+fastapis
+uvicorn
+asyncpg
+greenlet
+pydantic_core
