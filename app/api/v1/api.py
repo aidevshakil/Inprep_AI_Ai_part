@@ -1,5 +1,5 @@
 from fastapi import APIRouter
-from .endpoints import items
+from .endpoints import resume
 
 api_router = APIRouter()
-api_router.include_router(items.router, prefix="/items", tags=["items"])
+api_router.include_router(resume.router, prefix="/resume", tags=["resume"])

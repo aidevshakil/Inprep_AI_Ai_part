@@ -1,5 +1,9 @@
-fastapis
+fastapi
 uvicorn
 asyncpg
 greenlet
 pydantic_core
+python-multipart
+pypdf
+openai
+python-dotenv
