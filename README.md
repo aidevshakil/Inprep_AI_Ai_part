@@ -2,6 +2,7 @@
 
 A FastAPI-based REST API for the Inprep AI platform.
 
+
 ## Project Structure
 
 ```
@@ -48,7 +49,9 @@ OPENAI_API_KEY=your_openai_api_key_here
 OPENAI_MODEL=gpt-4.1-mini
 ```
 
+
 ## Running the Server
+
 
 ```bash
 uvicorn app.main:app --reload
